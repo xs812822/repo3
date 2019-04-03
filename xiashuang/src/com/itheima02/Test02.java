@@ -32,5 +32,7 @@ public class Test02 {
         System.out.println("请输入乘坐" + boat.getBrand() + "的人数");
         int b = sc.nextInt();
         boat.takePassager(b);
+
+        System.out.println("测试一下");
     }
 }
